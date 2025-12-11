@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>LEI’S AETHER ROOM — 這裡是我的小宇宙。</title>
+  <meta name="description" content="蕾的淡紫主題個人網站：小說 / 原神（絲柯克靈感）/ ASMR 放鬆室" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    :root{
+      --aether:#E9DFF8; /* very light purple */
+      --aether-dark:#7B5DBF; /* deeper purple */
+      --panel: rgba(255,255,255,0.55);
+    }
+    html{background:linear-gradient(180deg, #FBF8FF 0%, #F3EEFB 100%);} 
+    .glass{background:var(--panel); backdrop-filter: blur(6px);} 
+    .card-border{border:1px solid rgba(123,93,191,0.12);} 
+    .soft-shadow{box-shadow:0 6px 20px rgba(123,93,191,0.08);} 
+  </style>
+</head>
+<body class="antialiased text-slate-800">
+  <!-- NAV -->
+  <header class="sticky top-0 z-40 py-4">
+    <div class="max-w-5xl mx-auto px-4 flex items-center justify-between">
+      <div class="flex items-center gap-3">
+        <div class="w-10 h-10 rounded-lg flex items-center justify-center text-white" style="background:linear-gradient(135deg,var(--aether-dark),#C9A0FF);font-weight:700">L</div>
+        <div>
+          <div class="text-sm font-semibold">LEI'S AETHER ROOM</div>
+          <div class="text-xs text-slate-500">這裡是我的小宇宙。</div>
+        </div>
+      </div>
+      <nav class="hidden sm:flex gap-6 text-sm text-slate-600">
+        <a href="#home" class="hover:underline">Home</a>
+        <a href="#genshin" class="hover:underline">原神角落</a>
+        <a href="#reads" class="hover:underline">甜文收藏</a>
+        <a href="#calm" class="hover:underline">舒壓角落</a>
+        <a href="#about" class="hover:underline">關於我</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <main id="home" class="py-12">
+    <div class="max-w-5xl mx-auto px-4">
+      <section class="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
+        <div class="space-y-4">
+          <h1 class="text-4xl font-extrabold" style="color:var(--aether-dark)">這裡是我的小宇宙。</h1>
+          <p class="text-slate-600">歡迎來到 LEI’S AETHER ROOM — 一個以淡紫霧感為調性的個人收藏角落。這裡有我愛的小說、我想聊的角色與讓我放鬆的聲音。</p>
+          <div class="flex gap-3 mt-4">
+            <a href="#genshin" class="px-4 py-2 rounded-lg glass card-border">原神角落</a>
+            <a href="#reads" class="px-4 py-2 rounded-lg glass card-border">甜文收藏</a>
+            <a href="#calm" class="px-4 py-2 rounded-lg glass card-border">舒壓角落</a>
+          </div>
+          <div class="mt-6 text-xs text-slate-500">班級：5A2 · 課程期末作品</div>
+        </div>
+        <div class="rounded-xl overflow-hidden soft-shadow glass card-border p-6">
+          <!-- abstract decorative panel inspired by character UI -->
+          <div class="flex items-start gap-4">
+            <div class="w-28 h-28 rounded-lg flex items-center justify-center" style="background:linear-gradient(180deg,#F3E7FF,#EAD9FF);border:1px solid rgba(123,93,191,0.08)">
+              <!-- stylized emblem -->
+              <svg width="56" height="56" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="12" cy="12" r="10" stroke="#8B63D6" stroke-width="1.2"/>
+                <path d="M7 12c1.5-3 5.5-4 9-2" stroke="#7B5DBF" stroke-width="1.2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div>
+              <div class="font-semibold">絲柯克靈感調性</div>
+              <div class="text-sm text-slate-500 mt-2">優雅、理性、有一點科技感。我將這種氛圍帶進整個網站配色與 UI。</div>
+            </div>
+          </div>
+          <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div class="p-3 rounded-lg glass card-border">喜歡的元素：冷色調暈光、幾何線條、精緻邊框</div>
+            <div class="p-3 rounded-lg glass card-border">網站風格：淡紫主題、溫柔而有秩序</div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- Genshin Corner -->
+  <section id="genshin" class="py-8">
+    <div class="max-w-5xl mx-auto px-4">
+      <h2 class="text-2xl font-bold" style="color:var(--aether-dark)">原神角落</h2>
+      <p class="text-slate-600 mt-2">這一區是我對絲柯克的個人解讀與感受（純文字表達，不放任何遊戲版權截圖）。</p>
+
+      <div class="mt-6 grid grid-cols-1 md:grid-cols-3 gap-6">
+        <article class="p-5 rounded-xl glass card-border soft-shadow">
+          <h3 class="font-semibold">我為什麼喜歡絲柯克</h3>
+          <p class="text-sm text-slate-600 mt-2">她給我的感覺是冷靜但內心有暖意，理性的外殼下藏著溫柔的好奇。我喜歡她的設定所帶出的神祕感與學者氣息。</p>
+        </article>
+        <article class="p-5 rounded-xl glass card-border soft-shadow">
+          <h3 class="font-semibold">常用隊伍想像</h3>
+          <p class="text-sm text-slate-600 mt-2">我喜歡把她想成隊伍的指揮，搭配支援型角色與溫和的治療元素，玩起來像在編織一段故事。</p>
+        </article>
+        <article class="p-5 rounded-xl glass card-border soft-shadow">
+          <h3 class="font-semibold">我的角色心得</h3>
+          <p class="text-sm text-slate-600 mt-2">她的形象常讓我想寫同人短段或小插畫的構想──但這裡更偏向收集感受，而非重製內容。</p>
+        </article>
+      </div>
+
+      <!-- stylized character panel (original artwork-like element) -->
+      <div class="mt-8 p-6 rounded-2xl glass card-border soft-shadow flex flex-col md:flex-row items-center gap-6">
+        <div class="w-full md:w-48 h-48 rounded-lg flex items-center justify-center" style="background:linear-gradient(180deg,#F0E8FF,#E6DBFF);border:1px solid rgba(123,93,191,0.08)">
+          <div class="text-sm text-slate-500">（風格化識別徽章）</div>
+        </div>
+        <div class="flex-1">
+          <div class="font-semibold">絲柯克 調性面板</div>
+          <div class="text-sm text-slate-600 mt-2">在這個面板中，我會展示我自己對她的理解：技能想像、台詞感覺（純自創）、以及我會如何在故事中安排她出場的氛圍。</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sweet Reads -->
+  <section id="reads" class="py-8 bg-gradient-to-b from-white to-[#FAF6FF]">
+    <div class="max-w-5xl mx-auto px-4">
+      <h2 class="text-2xl font-bold" style="color:var(--aether-dark)">甜文收藏</h2>
+      <p class="text-slate-600 mt-2">我最喜歡的甜文類型與閱讀習慣。</p>
+
+      <div class="mt-6 grid grid-cols-1 sm:grid-cols-2 gap-4">
+        <div class="p-4 rounded-lg glass card-border soft-shadow">
+          <h3 class="font-semibold">喜歡的甜文類型</h3>
+          <ul class="mt-2 text-sm text-slate-600 list-disc pl-5">
+            <li>日常甜：溫柔的小互動</li>
+            <li>校園甜：青澀又安心</li>
+            <li>治癒向：讀後心情會變好</li>
+          </ul>
+        </div>
+        <div class="p-4 rounded-lg glass card-border soft-shadow">
+          <h3 class="font-semibold">我的閱讀習慣</h3>
+          <p class="text-sm text-slate-600 mt-2">睡前一小段、等待時刷短章、喜歡手握溫暖的飲料邊看。</p>
+        </div>
+      </div>
+
+      <div class="mt-6">
+        <h4 class="font-semibold">讀後小句（原創）</h4>
+        <div class="mt-3 grid grid-cols-1 sm:grid-cols-3 gap-3">
+          <div class="p-3 rounded-lg glass card-border">「你笑了，我就覺得世界安靜了。」</div>
+          <div class="p-3 rounded-lg glass card-border">「日常裡的暖是悄悄來的。」</div>
+          <div class="p-3 rounded-lg glass card-border">「把平淡包成禮物，慢慢拆給你看。」</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Calm Zone (ASMR) -->
+  <section id="calm" class="py-8">
+    <div class="max-w-5xl mx-auto px-4">
+      <h2 class="text-2xl font-bold" style="color:var(--aether-dark)">舒壓角落</h2>
+      <p class="text-slate-600 mt-2">按摩類 ASMR 帶來的靜謐感。我在這裡用簡單的互動模擬一種輕柔的聲場（示範用）。</p>
+
+      <div class="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+        <div class="p-6 rounded-xl glass card-border soft-shadow">
+          <h3 class="font-semibold">按摩聲音模擬器（示範）</h3>
+          <p class="text-sm text-slate-600 mt-2">按下播放會產生輕柔脈動音，模擬按摩時的節律感。這是網頁示範：實際 ASMR 聲音請以合法來源播放。</p>
+          <div class="mt-4 flex items-center gap-3">
+            <button id="play" class="px-4 py-2 rounded-md bg-gradient-to-r from-[#A77BFF] to-[#8B63D6] text-white">播放</button>
+            <button id="stop" class="px-4 py-2 rounded-md border">停止</button>
+            <div id="calm-status" class="text-sm text-slate-500"></div>
+          </div>
+        </div>
+        <div class="p-6 rounded-xl glass card-border soft-shadow">
+          <h3 class="font-semibold">按摩類偏好</h3>
+          <p class="text-sm text-slate-600 mt-2">喜歡溫和的推揉、肩頸放鬆、慢節奏的節拍。ASMR 對我來說是傍晚與深夜的療癒儀式。</p>
+          <div class="mt-4 text-sm text-slate-500">提示：若要嵌入真實聲音建議使用有授權的來源或個人錄音。</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <footer id="about" class="py-10 border-t mt-8">
+    <div class="max-w-5xl mx-auto px-4 text-sm text-slate-600">
+      <div class="flex items-center justify-between">
+        <div>
+          <div class="font-semibold">關於 LEI</div>
+          <div class="mt-2">這是我的期末作業網站範例。我喜歡小說、原神與 ASMR。製作目的：展示個人興趣並練習網頁設計。</div>
+        </div>
+        <div class="text-xs text-slate-400">© 2025 LEI’S AETHER ROOM</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SCRIPTS: simple WebAudio pad for calm simulation + mobile nav -->
+  <script>
+    // mobile simple nav toggle (if needed later)
+
+    // WebAudio gentle pad + pulsing gain to simulate massage rhythm
+    let audioCtx = null;
+    let osc = null;
+    let gain = null;
+    let lfo = null;
+
+    const playBtn = document.getElementById('play');
+    const stopBtn = document.getElementById('stop');
+    const status = document.getElementById('calm-status');
+
+    function startPad(){
+      if(!audioCtx) audioCtx = new (window.AudioContext || window.webkitAudioContext)();
+      osc = audioCtx.createOscillator();
+      gain = audioCtx.createGain();
+      lfo = audioCtx.createOscillator();
+      let lfoGain = audioCtx.createGain();
+
+      osc.type = 'sine';
+      osc.frequency.value = 180; // soft high-ish pad
+
+      gain.gain.value = 0.0001; // start almost silent
+
+      // LFO to pulse the gain slowly (massage rhythm)
+      lfo.type = 'sine';
+      lfo.frequency.value = 0.5; // 0.5 Hz -> 2s per cycle
+      lfoGain.gain.value = 0.06;
+
+      lfo.connect(lfoGain);
+      lfoGain.connect(gain.gain);
+
+      osc.connect(gain);
+      gain.connect(audioCtx.destination);
+
+      osc.start();
+      lfo.start();
+
+      // ramp up gently
+      gain.gain.exponentialRampToValueAtTime(0.02, audioCtx.currentTime + 1.2);
+      status.textContent = '播放中 • 輕柔脈動';
+    }
+
+    function stopPad(){
+      if(!audioCtx) return;
+      try{
+        gain.gain.exponentialRampToValueAtTime(0.0001, audioCtx.currentTime + 0.8);
+        setTimeout(()=>{
+          osc.stop();
+          lfo.stop();
+          osc.disconnect();
+          lfo.disconnect();
+          gain.disconnect();
+          audioCtx.close();
+          audioCtx = null;
+          status.textContent = '已停止';
+        },1000);
+      }catch(e){
+        status.textContent = '已停止';
+      }
+    }
+
+    playBtn?.addEventListener('click', ()=>{
+      // resume context if suspended
+      if(audioCtx && audioCtx.state === 'suspended') audioCtx.resume();
+      if(!audioCtx) startPad();
+    });
+    stopBtn?.addEventListener('click', stopPad);
+  </script>
+</body>
+</html>
